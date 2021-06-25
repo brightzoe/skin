@@ -25,7 +25,7 @@ export default {
       );
     }
   },
-  mounted() {//实例被挂载之后使用，设置默认的theme
+  mounted() {//实例被挂载之后使用，设置默认的theme：light
     document.documentElement.setAttribute(
       "data-theme",
       this.theme ? "light" : "dark"

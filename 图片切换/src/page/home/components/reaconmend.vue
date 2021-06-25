@@ -1,8 +1,8 @@
 <template>
-  <div class="reaconmend" ref="reaconmend">
-    <div class="reaconmend-content">
+  <div class="recommend" ref="recommend">
+    <div class="recommend-content">
       <div>
-        <div class="reaconmend-list">
+        <div class="recommend-list">
           <!-- <ul>
             <li @click="selectItem(item)" v-for="item in discList" :key="item.dissid" class="item">
               <div class="icon">
@@ -26,7 +26,7 @@
 import { list } from "../data";
 import bus from "../../../bus";
 export default {
-  name: "reaconmend",
+  name: "recommend",
   data() {
     return {
       discList: [],
@@ -53,8 +53,8 @@ export default {
 };
 </script>
 <style lang="scss" rel="stylesheet/scss">
-.reaconmend {
-  .reaconmend-content {
+.recommend {
+  .recommend-content {
     height: 100%;
     .slider-wrapper {
       position: relative;
@@ -62,7 +62,7 @@ export default {
       overflow: hidden;
     }
   }
-  .reaconmend-list {
+  .recommend-list {
     .avatar {
       width: 200px;
       height: 200px;

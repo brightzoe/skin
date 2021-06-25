@@ -1,8 +1,8 @@
 <template>
-  <div class="reaconmend" ref="reaconmend">
-    <div class="reaconmend-content">
+  <div class="recommend" ref="recommend">
+    <div class="recommend-content">
       <div>
-        <div class="reaconmend-list">
+        <div class="recommend-list">
           <ul>
             <li
               @click="selectItem(item)"
@@ -27,7 +27,7 @@
 <script>
 import { list } from "../data";
 export default {
-  name: "reaconmend",
+  name: "recommend",
   data() {
     return {
       discList: [],
@@ -47,12 +47,12 @@ export default {
 </script>
 <style lang="scss" rel="stylesheet/scss">
 @import "../../../assets/scss/variable.scss";
-.reaconmend {
+.recommend {
   // position: fixed;
   // width: 100%;
   // top: 84px;
   // bottom: 0;
-  .reaconmend-content {
+  .recommend-content {
     height: 100%;
     // overflow: hidden;
     .slider-wrapper {
@@ -61,7 +61,7 @@ export default {
       overflow: hidden;
     }
   }
-  .reaconmend-list {
+  .recommend-list {
     .list-title {
       height: 40px;
       line-height: 40 px;

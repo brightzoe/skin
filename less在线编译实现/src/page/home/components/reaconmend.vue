@@ -1,8 +1,8 @@
 <template>
-  <div class="reaconmend" ref="reaconmend">
-    <div class="reaconmend-content">
+  <div class="recommend" ref="recommend">
+    <div class="recommend-content">
       <div>
-        <div class="reaconmend-list">
+        <div class="recommend-list">
           <ul>
             <li @click="selectItem(item)" v-for="item in discList" :key="item.dissid" class="item">
               <div class="icon">
@@ -22,7 +22,7 @@
 <script>
 import { list } from "../data";
 export default {
-  name: "reaconmend",
+  name: "recommend",
   data() {
     return {
       discList: []

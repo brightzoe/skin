@@ -21,10 +21,10 @@ export default {
   body {
     background: $dark-fill-1;
   }
-  .reaconmend .reaconmend-list .item .name {
+  .recommend .recommend-list .item .name {
     color: $dark-color-text;
   }
-  .reaconmend .reaconmend-list .item .desc {
+  .recommend .recommend-list .item .desc {
     color: $dark-color-text-1;
   }
   .header .text {

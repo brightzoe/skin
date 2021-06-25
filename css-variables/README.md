@@ -1,4 +1,4 @@
-# css-var
+# css-variables
 
 ## Project setup
 ```

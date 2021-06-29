@@ -26,11 +26,7 @@ export default {
   },
   methods: {
     changeTheme() {
-      this.theme = !this.theme;
-      document.documentElement.setAttribute(
-        "data-theme",
-        this.theme ? "light" : "dark",
-      );
+      window.toggleTheme('dark')
     },
   },
   mounted() {

@@ -2,6 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import cssVars from "css-vars-ponyfill";
 import router from "./router";
+//主要逻辑
 function toggleTheme(theme) {
   var $link = window.createLink();
   $link.href = "./" + theme + ".css";
